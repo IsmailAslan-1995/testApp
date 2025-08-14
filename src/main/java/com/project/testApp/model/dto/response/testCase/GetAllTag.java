@@ -1,0 +1,6 @@
+package com.project.testApp.model.dto.response.testCase;
+
+import lombok.Builder;
+
+@Builder
+public record GetAllTag(Integer tagId, String tagName) {}
